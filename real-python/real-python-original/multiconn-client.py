@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+ #usage: multiconn-client.py     <host>        <port>     <num_connections>
+
+ # python3 multiconn-client.py  127.0.0.1        5050      3
+
+
 import sys
 import socket
 import selectors
