@@ -1,6 +1,7 @@
 import socket
 
-print("waiting client to send message, Bye or bye to End")
+print("single host, single server connection - waiting client to send message, Bye or bye to End")
+
 s = socket.socket()
 port = 12345
 s.bind(('', port))
