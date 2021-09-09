@@ -4,7 +4,7 @@ port = 12345
 """
 manually confirm port is not used.
 #find the process using the port
-lsof -i :12345
+lsof -i :8000
 #and kill it
 kill -9 process_id
 """
