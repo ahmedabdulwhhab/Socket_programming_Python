@@ -1,3 +1,9 @@
+
+# confirm port 12345 is free
+import os
+os.system("sudo fuser -i 12345/tcp")
+
+
 import socket
 
 port = 12345
