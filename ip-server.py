@@ -2,6 +2,7 @@
 # confirm port 12345 is free
 import os
 os.system("sudo fuser -i 12345/tcp")
+os.system("sudo lsof -i :8000")
 
 
 import socket
