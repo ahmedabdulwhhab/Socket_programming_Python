@@ -39,7 +39,7 @@ while True:
         elif(rcvdData=='ip_2'):
             sendData = '192.168.178.32/24'
             c.send(sendData.encode())
-                elif(rcvdData=='ip_3'):
+        elif(rcvdData=='ip_3'):
             sendData = '192.168.178.33/24'
             c.send(sendData.encode())
         else:
